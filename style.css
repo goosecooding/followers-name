@@ -1,0 +1,20 @@
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 400px;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 90%);
+}
+.nav h1 {
+    color: hsl(0, 0%, 100%);
+}
