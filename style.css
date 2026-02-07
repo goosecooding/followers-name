@@ -17,4 +17,5 @@ body {
 }
 .nav h1 {
     color: hsl(0, 0%, 100%);
+    font-size: clamp(2rem, 3vw, 10px);
 }
