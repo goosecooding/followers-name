@@ -31,7 +31,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     place-items: center;
-    gap: 10px;
+    gap: 19px;
 }
 .search{
     display: flex;
@@ -64,8 +64,16 @@ a {
     background-color: hsl(0, 0%, 10%);
     color: hsl(0, 0%, 100%);
 }
-
-
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.top {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 60px;
+}
 @media(max-width: 900px) {
     .nav {
         margin: 30px 40px;
