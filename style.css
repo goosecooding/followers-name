@@ -12,6 +12,11 @@ a {
     color: #fff;
     text-decoration: none;
     font-size: 25px;
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease;
+}
+a:hover {
+    border-bottom: 2px solid hsl(0, 0%, 100%);
 }
 .nav {
     display: flex;
@@ -29,7 +34,7 @@ a {
 .mother{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center;
     gap: 19px;
 }
@@ -67,6 +72,7 @@ a {
 .box {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 19px;
 }
 .top {
