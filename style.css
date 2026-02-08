@@ -34,7 +34,7 @@ a:hover {
 .mother{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     gap: 19px;
 }
@@ -92,5 +92,8 @@ a:hover {
     }
     .search p {
         font-size: 15px;
+    }
+    .mother {
+        grid-template-columns: 1fr;
     }
 }
